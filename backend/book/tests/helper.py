@@ -2,7 +2,7 @@ import random
 
 from book.models import Book
 
-def create_random_book(finished: book = True) -> Book:
+def create_random_book(finished: bool = True) -> Book:
     return Book.objects.create(
         title = str(random.randint(1111, 9999)),
         author=str(random.randint(1111, 9999)),
