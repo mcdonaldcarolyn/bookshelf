@@ -53,3 +53,5 @@ export function AddBook(props) {
     </section>
   )
 }
+
+/*standard form to add book, create state called book */
