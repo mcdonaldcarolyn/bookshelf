@@ -1,5 +1,5 @@
 import { AddBook } from "./add-book/compponents";
-import { BookShelf } from "./bookshelf/components";
+import { Bookshelf } from "./BookShelffolder/components";
 import { useEffect, getFinishedList, getUnfinishedList, saveBook, setFinished } from "./repository";
 import { Col, Container, Navbar, Row } from "react-bootstrap";
 
